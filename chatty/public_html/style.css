@@ -1,0 +1,26 @@
+/* Name: Billy Dolny
+ * class: CSC 337
+ * file: style.css
+ * Assignment: Chatty
+ * Description: This file should make the background green and have the bottom
+ half of the website you can create a name, write a message, and send message.
+*/
+
+html {
+    background-color: lightgreen;
+}
+
+#bottomHalf{
+    background-color: green;
+    position: fixed;
+    top: 70%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+#messages{
+    top: 0;
+    bottom: 30%;
+    overflow-wrap: break-word;
+    overflow-y: scroll;
+}

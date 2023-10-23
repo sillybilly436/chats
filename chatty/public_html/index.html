@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!-- Name: Billy Dolny
+class: CSC 337
+file: index.html
+assignment: Chatty
+Description: This file should create a website that is like a
+text message where you can reate an alias and texted other 
+Windows/Clients-->
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script type="text/javascript" src="script.js"></script>
+        <title>Chatty</title>
+    </head>
+
+    <div id="messages">
+    </div>
+    <div id="bottomHalf">
+        <div>Alias
+            <textarea id="alias" type="text" name="alias" required></textarea>
+        </div>
+        <div id="msgbox">Messages
+            <textarea id="mssg" type="text" name="mssg" required></textarea>
+        </div>
+        <div id="button">
+            <input id="sender" onclick="sending();" type="button" value="Send Message">
+        </div>
+    </div>
+</html>
